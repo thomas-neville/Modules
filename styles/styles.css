@@ -33,6 +33,8 @@ section {
 h6 {
   font-size: 1em;
   text-align: center;
+  padding: .5em;
+  margin: .5em;
 }
 
 p {
