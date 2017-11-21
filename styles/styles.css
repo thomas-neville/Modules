@@ -1,3 +1,19 @@
+section {
+  display: block;
+  float:left;
+  margin: 2em;
+  padding: 1em 1em 1em 1em;
+}
+
+.swatches li {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  float: left;
+  margin: .5em;
+  list-style: none;
+}
+
 .bg-black {
   background-color: black;
 }
@@ -14,26 +30,26 @@
   background-color: red;
 }
 
-.swatches li {
-  border-radius: 50%;
-  height: 2em;
-  width: 2em;
-  float: left;
-  margin: .5em;
+h6 {
+  font-size: 1em;
+  text-align: center;
 }
 
-section {
-  display: block;
-  float:left;
-  margin: 2em;
+p {
+  text-align: center;
+  line-height: .5em;
 }
 
-button {
+.review {
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+  width: 100%;
   -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
   transition: width 2s, height 2s, background-color 2s transform 2s;
 }
 
-button:focus {
+.review:focus {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   background-color: blue;
@@ -41,4 +57,9 @@ button:focus {
 
 button {
   clear: both;
+  text-align: center;
+}
+
+.old-price {
+  text-decoration: line-through;
 }
