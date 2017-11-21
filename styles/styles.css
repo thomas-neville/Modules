@@ -1,0 +1,44 @@
+.bg-black {
+  background-color: black;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.swatches li {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  float: left;
+  margin: .5em;
+}
+
+section {
+  display: block;
+  float:left;
+  margin: 2em;
+}
+
+button {
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s transform 2s;
+}
+
+button:focus {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  background-color: blue;
+}
+
+button {
+  clear: both;
+}
