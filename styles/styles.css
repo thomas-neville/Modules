@@ -1,8 +1,14 @@
-section {
+.modules {
   display: block;
   float:left;
   margin: 2em;
   padding: 1em 1em 1em 1em;
+}
+
+img {
+  height: 10em;
+  width: auto;
+  margin: .5em 3em;
 }
 
 .swatches li {
@@ -10,7 +16,7 @@ section {
   height: 2em;
   width: 2em;
   float: left;
-  margin: .5em;
+  margin: 0 .5em .5em;
   list-style: none;
 }
 
@@ -47,21 +53,59 @@ p {
   text-align: center;
   color: orange;
   width: 100%;
-  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, background-color 2s transform 2s;
-}
-
-.review:focus {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  background-color: blue;
+  float: left;
+  margin-bottom: .5em;
 }
 
 button {
   clear: both;
-  text-align: center;
+  margin-left: 7em;
 }
 
 .old-price {
   text-decoration: line-through;
+}
+
+.navbar {
+  background-color: orange;
+  font-weight: bold;
+  margin: 1em 0 1em;
+  float: left;
+  width: 100vw;
+}
+
+.navbar ul {
+  width: 100vw;
+  height: 2vh;
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0 1em 1em 1em;
+}
+
+.navbar ul li {
+  float: left;
+  padding: .5em 0 .5em;
+  text-align: center; 
+  border-bottom: 1em solid 59E89B;
+  width: 20%;
+  
+}
+
+.navbar li a {
+  display: block;
+  padding: 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: darkorange;
+}
+
+
+
+
+
+.sidebar {
+  
 }
