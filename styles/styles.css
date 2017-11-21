@@ -102,10 +102,23 @@ button {
   background-color: darkorange;
 }
 
-
-
-
-
 .sidebar {
-  
+  float: left;
+  padding: 1em;
+  border: .2em solid orange;
+  height: 90vh;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-top: 1em;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  margin: 0 1em 0 0;
 }
